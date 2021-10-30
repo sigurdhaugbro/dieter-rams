@@ -2,7 +2,7 @@ body {
 	background-color: white;
 	font-family: sans-serif;
 	font-weight: 100;
-	font: 16px;
+	font-size: 16px;
 }
 
 aside {
@@ -12,31 +12,99 @@ aside {
 	position: fixed;
 	top: 0;
 	left: 0;
+	border: solid black;
+}
+
+aside ul {
+	padding-left: 60px;
+}
+
+aside ul li {
+	padding: 5px;
+}
+
+aside ul:first-child {
+	padding-top: 40px;
 }
 
 section {
 	position: relative;
+	height: 100vh;
 }
 
-/* ----------- text-box --------- */
+/* ----------- text --------- */
 
 .text-box {
 	border: black solid 3px;
+	font-size: 4.236rem;
+}
+
+.text {
 	font-size: 2.618rem;
 }
 
 .dieter-rams {
 	position: absolute;
-	width: 10vw;
-	height: 10vw;
+	width: 15vw;
+	height: 15vw;
 	top: 5vh;
-	left: 85vw;
+	left: 80vw;
 }
 
-.first-principle {
+.text-box-one {
+	border: black solid 3px;
+	font-size: 4.236rem;
 	position: absolute;
-	top: 5vh;
-	left: 70vw;
-	width: 15vw;
-	height: 15vh;
+	top: 10vh;
+	left: 20vw;
+	width: 35vw;
+	height: 30vh;
+}
+
+.text-one {
+	position: absolute;
+	font-size: 2.618rem;
+	width: 60vw;
+	top: 50vh;
+	left: 35vw;
+}
+
+.text-two {
+	position: absolute;
+	top: 10vh;
+	left: 20vw;
+	width: 50vw;
+	height: 30vh;
+}
+
+.text-box-two {
+	position: absolute;
+	top: 60vh;
+	left: 45vw;
+
+	height: 30vh;
+	width: 45vw;
+}
+
+.text-box-three {
+	display: flex;
+	justify-content: center;
+	margin-top: 10vh;
+	height: 30vh;
+	width: 45vw;
+}
+
+.text-three {
+	display: flex;
+	justify-content: center;
+	margin-top: 10vh;
+	width: 40vw;
+	text-align: center;
+}
+
+/* -----img----- */
+
+.img-container img {
+	margin-left: 10vw;
+	max-width: 90vw;
 }
