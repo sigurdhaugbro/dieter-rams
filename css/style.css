@@ -101,7 +101,13 @@ section {
 	text-align: center;
 }
 
-.understandable {
+.section-four {
+	/* background-color: white; */
+	width: 100vw;
+	height: 100vh;
+	/* position: sticky; */
+	/* top: 0; */
+	/* left: 0; */
 	display: flex;
 	align-items: center;
 }
@@ -118,6 +124,38 @@ section {
 	margin-left: 2.5%;
 }
 
+.text-box-five {
+	width: 40vw;
+	height: 20vw;
+	position: absolute;
+	top: 102%;
+	left: 54%;
+}
+
+.text-five {
+	z-index: 2;
+	width: 100vw;
+	height: 100vh;
+}
+
+.text-five {
+	display: flex;
+	justify-content: space-around;
+	margin-top: 40vh;
+	width: 50vw;
+	text-align: center;
+}
+
+.grid-container {
+	display: grid;
+	justify-content: space-between;
+}
+
+.grid-container .text-box {
+	width: 30vw;
+	height: 30vw;
+}
+
 /* -----img----- */
 
 .img-container img {
@@ -126,11 +164,15 @@ section {
 }
 
 .slide-show {
+	/* position: sticky; */
+	/* top: 0; */
+	/* left: 0; */
 	height: 100vh;
-	border: 1vw;
+	margin-left: 15vw;
 	text-align: center;
 	overflow-y: scroll;
-	overflow-x: hidden;
+	overflow-x: scroll;
+	display: flex;
 }
 
 .slide-show::-webkit-scrollbar {
@@ -138,6 +180,19 @@ section {
 }
 
 .slide-show img {
-	max-width: 800px;
-	margin: 10%;
+	max-width: 600px;
+	margin-right: 400px;
+}
+
+.recordplayer-img {
+	display: flex;
+	justify-content: center;
+}
+
+.shelves-img img {
+	margin-top: 25vh;
+	position: sticky;
+	top: 0;
+	left: 0;
+	z-index: 1;
 }
