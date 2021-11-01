@@ -32,9 +32,10 @@ aside ul:first-child {
 }
 .final-section {
 	position: relative;
-	margin-top: 10vh;
+	width: 100%;
+	height: 100%;
 	/* margin-left: 10vw; */
-	margin-bottom: 10vh;
+	margin: 20% 0 20% 0;
 }
 
 .final-section h2 {
@@ -49,10 +50,6 @@ aside ul:first-child {
 	margin-left: 50vw;
 }
 
-.speaker {
-	z-index: 1;
-	width: 100vw;
-}
 /* ----------- text --------- */
 
 .text-box {
@@ -181,8 +178,8 @@ h2 {
 }
 
 .grid-container .text-box {
-	width: 30vw;
-	height: 30vw;
+	width: 35vw;
+	height: 35vw;
 	margin-bottom: 10vh;
 }
 
@@ -230,4 +227,14 @@ h2 {
 	top: 0;
 	left: 0;
 	z-index: 1;
+}
+
+/* spørr om z index og sticky og få fjernet sticky så aside synes igjenn */
+
+.speaker {
+	display: flex;
+	justify-content: center;
+	width: 100vw;
+	height: 100vh;
+	z-index: 2;
 }
