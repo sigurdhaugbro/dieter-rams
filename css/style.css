@@ -26,11 +26,33 @@ aside ul:first-child {
 	padding-top: 40px;
 }
 
-section {
+.principle-container {
 	position: relative;
 	height: 100vh;
 }
+.final-section {
+	position: relative;
+	margin-top: 10vh;
+	/* margin-left: 10vw; */
+	margin-bottom: 10vh;
+}
 
+.final-section h2 {
+	font-weight: 100;
+	font-size: 4rem;
+	width: 60vw;
+	margin-bottom: 10vh;
+}
+
+.final-section .text {
+	width: 40vw;
+	margin-left: 50vw;
+}
+
+.speaker {
+	z-index: 1;
+	width: 100vw;
+}
 /* ----------- text --------- */
 
 .text-box {
@@ -147,11 +169,19 @@ section {
 }
 
 .grid-container {
+	margin-left: 15vw;
 	display: grid;
 	justify-content: space-between;
+	grid-template-columns: 1fr 1fr;
 }
 
 .grid-container .text-box {
+	width: 30vw;
+	height: 30vw;
+	margin-bottom: 10vh;
+}
+
+.grid-container .grid-text {
 	width: 30vw;
 	height: 30vw;
 }
