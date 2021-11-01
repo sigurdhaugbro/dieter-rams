@@ -168,6 +168,11 @@ aside ul:first-child {
 	text-align: center;
 }
 
+h2 {
+	font-weight: 100;
+	margin-left: 15vw;
+}
+
 .grid-container {
 	margin-left: 15vw;
 	display: grid;
