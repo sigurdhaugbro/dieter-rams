@@ -2,9 +2,14 @@
 <html lang="en">
 	<head>
 		<meta charset="UTF-8" />
-
-		<link rel="stylesheet" href="css/style.css" />
 		<link rel="stylesheet" href="css/reset.css" />
+		<link
+			rel="stylesheet"
+			media="screen and (max-width: 600px)"
+			href="css/mobile.css"
+		/>
+		<link rel="stylesheet" href="css/style.css" />
+
 		<title>Document</title>
 	</head>
 	<body>
@@ -23,14 +28,14 @@
 			</ul>
 		</aside>
 		<main>
-			<figure>
+			<figure class="dieter-rams-img">
 				<img
 					src="assets/profil-1.jpg"
 					alt="photo of Dieter Rams in profile"
 				/>
 				<figcaption class="text-box dieter-rams">Dieter Rams</figcaption>
 			</figure>
-			<section class="principle-container">
+			<section class="section-container">
 				<div class="text-box-one">Good design is innovative</div>
 				<div class="text-one">
 					The possibilities for innovation are not, by any means,
@@ -47,7 +52,7 @@
 				/>
 			</figure>
 
-			<section class="principle-container">
+			<section class="section-container">
 				<div class="text text-two">
 					A product is bought to be used. It has to satisfy certain
 					criteria, not only functional, but also psychological and
@@ -63,7 +68,7 @@
 				<img src="assets/citrus.jpg" alt="juicer designed by Dieter Rams" />
 			</figure>
 
-			<section class="principle-container">
+			<section class="section-container">
 				<div class="text-box text-box-three">Good design is aesthetic</div>
 				<div class="text text-three">
 					The aesthetic quality of a product is integral to its usefulness
@@ -83,7 +88,7 @@
 					alt="picture of a recordplayer"
 				/>
 			</figure>
-			<section class="section-four principle-container">
+			<section class="section-four section-container">
 				<div class="text text-four">
 					It clarifies the products structure. Better still, it can make
 					the product talk. At best, it is self-explanatory.
@@ -92,7 +97,7 @@
 					Good design makes a product understandable
 				</div>
 			</section>
-			<section class="principle-container">
+			<section class="section-container">
 				<img
 					class="recordplayer-img"
 					src="assets/recordplayer.jpg"
@@ -118,9 +123,9 @@
 						valuable than it really is. It does not attempt to manipulate
 						the consumer with promises that cannot be kept.
 					</div>
-					<div class="text-box">honest</div>
+					<div class="text-box grid-container__text-box">honest</div>
 
-					<div class="text-box grid-item-3">long-lasting</div>
+					<div class="text-box grid-container__text-box">long-lasting</div>
 					<div class="text grid-text">
 						It avoids being fashionable and therefore never appears
 						antiquated. Unlike fashionable design, it lasts many years -
@@ -131,9 +136,13 @@
 						Nothing must be arbitrary or left to chance. Care and accuracy
 						in the design process show respect towards the consumer.
 					</div>
-					<div class="text-box">thorough down to the last detail</div>
+					<div class="text-box grid-container__text-box">
+						thorough down to the last detail
+					</div>
 
-					<div class="text-box">environmentally friendly</div>
+					<div class="text-box grid-container__text-box">
+						environmentally friendly
+					</div>
 					<div class="text grid-text">
 						Design makes an important contribution to the preservation of
 						the environment. It conserves resources and minimises physical
