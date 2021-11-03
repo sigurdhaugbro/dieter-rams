@@ -1,10 +1,15 @@
 body {
-	font-size: 180px;
+	display: flex;
 }
 
 aside {
 	display: none;
 }
 
-.dieter-rams-img {
+main {
+	display: flex;
 }
+
+/* section {
+	justify-content: center;
+} */

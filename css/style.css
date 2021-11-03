@@ -1,3 +1,8 @@
+* {
+	max-width: 1400px;
+	margin: auto;
+}
+
 body {
 	background-color: white;
 	font-family: sans-serif;
@@ -6,7 +11,7 @@ body {
 }
 
 aside {
-	width: 300px;
+	width: 200px;
 	height: 100vh;
 	background-color: white;
 	position: fixed;
@@ -37,11 +42,11 @@ aside ul:first-child {
 	margin: 20% 0 20% 0;
 }
 
-.dieter-rams-img,
+/* .dieter-rams-img,
 .dieter-rams-img img {
 	width: 100%;
 	max-width: unset;
-}
+} */
 
 /* ----------- text --------- */
 
@@ -127,14 +132,14 @@ aside ul:first-child {
 
 .text-four {
 	width: 30vw;
-	/* margin: 0%; */
-	margin-right: 2.5%;
+
+	margin-right: 0;
 }
 
 .text-box-four {
 	width: 35vw;
 	height: 40vh;
-	margin-left: 2.5%;
+	margin-left: 0;
 }
 
 .text-box-five {
@@ -227,6 +232,11 @@ h2 {
 .recordplayer-img {
 	display: flex;
 	justify-content: center;
+}
+
+.shelves-img,
+.shelves-img img {
+	width: 100vw;
 }
 
 .shelves-img {
