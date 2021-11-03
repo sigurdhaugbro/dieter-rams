@@ -37,7 +37,8 @@ aside ul:first-child {
 	margin: 20% 0 20% 0;
 }
 
-.dieter-rams-img {
+.dieter-rams-img,
+.dieter-rams-img img {
 	width: 100%;
 	max-width: unset;
 }
